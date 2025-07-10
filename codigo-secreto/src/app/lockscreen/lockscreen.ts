@@ -18,18 +18,11 @@ export class Lockscreen {
     if (this.codenumber.value != "47") {
       document.querySelector('.lockscreen-container')!.innerHTML = `
       <div class="lockscreen-container-resultado">
-        <p class="lockscreen-container-resultado-p">Você digitou o número ${this.codenumber.value}</p>
-        <button class="lockscreen-container-resultado_button" type="button" (click)="retornaPaginaInicial()">Retornar</button>
+        <p class="lockscreen-container-resultado-p">Você digitou o número ${this.codenumber.value}!</p>
       </div>
-      `;
-      document.querySelector('.lockscreen-container-resultado_button')?.addEventListener('click', bind(this))
+      `;   
     } else if (this.codenumber.value = "47") {
       this.router.navigate(["/hitman"]);
     }
   };
-
-  retornaPaginaInicial() {
-    console.log("clicou");
-    this.router.navigate(["/lockscreen"]);
-  }
 };
