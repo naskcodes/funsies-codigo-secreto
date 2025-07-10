@@ -11,7 +11,7 @@ body {
     margin: 20% 38%;
 };
 
-.lockscreen-container-form_input, .lockscreen-container-form_button {
+.lockscreen-container-form_input, .lockscreen-container-form_button, .lockscreen-container-resultado_button {
     padding: 1rem;
 }
 
@@ -44,7 +44,14 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     background-color: #000000;
 }
 
-.lockscreen-container-form_button:hover {
+.lockscreen-container-form_button, .lockscreen-container-resultado_button {
+    color: #FFFFFF;
+    border-radius: .2rem;
+    border: solid .1rem #00aaff;
+    background-color: #000000;
+}
+
+.lockscreen-container-form_button:hover, .lockscreen-container-resultado_button:hover {
     background-color: #00AAFF;
     box-shadow: #00AAFF .1rem .3rem 1.5rem;
     transition: .8s;
@@ -52,4 +59,8 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .lockscreen-container-resultado {
     margin: 20% 10% 10% 40%;
+}
+
+.lockscreen-container-resultado_button {
+    width: 35%;
 }
