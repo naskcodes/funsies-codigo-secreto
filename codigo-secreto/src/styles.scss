@@ -8,12 +8,12 @@ body {
 .lockscreen-container-form {
     font-weight: lighter;
     font-size: 2.5rem;
-    margin: 20% 38%;
+    margin: 33vh 78vh;
 };
 
-.lockscreen-container-form_input, .lockscreen-container-form_button, .lockscreen-container-resultado_button {
+.lockscreen-container-form_input, .lockscreen-container-form_button {
     padding: 1rem;
-}
+};
 
 .lockscreen-container-form_prompt, .lockscreen-container-form_input, .lockscreen-container-form_button {
     margin: 1rem;
@@ -21,46 +21,60 @@ body {
 
 .lockscreen-container-form_input {
     display: block;
-    width: 75%;
+    width: 21.9rem;
     background-color: #202020;
     border: 0;
     border-radius: .2rem;
     color: #FFFFFF;
 };
 
-.lockscreen-container-form_input, .lockscreen-container-resultado {
+.lockscreen-container-form_input {
     font-size: 1.5rem;
-}
+};
 
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     -webkit-appearance: none;
 };
 
 .lockscreen-container-form_button {
-    width: 82%;
+    width: 23.8rem;
     color: #FFFFFF;
     border-radius: .2rem;
-    border: solid .1rem #00aaff;
+    border: solid .1rem #00AAFF;
     background-color: #000000;
-}
+};
 
-.lockscreen-container-form_button, .lockscreen-container-resultado_button {
-    color: #FFFFFF;
-    border-radius: .2rem;
-    border: solid .1rem #00aaff;
-    background-color: #000000;
-}
-
-.lockscreen-container-form_button:hover, .lockscreen-container-resultado_button:hover {
+.lockscreen-container-form_button:hover {
     background-color: #00AAFF;
     box-shadow: #00AAFF .1rem .3rem 1.5rem;
     transition: .8s;
+};
+
+//Mika Snowden, 12/7/2025, 21:31 >> Style do component page-skeleton
+.navbar {
+    padding: 1rem;
+};
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.lockscreen-container-resultado {
-    margin: 20% 10% 10% 40%;
-}
+.navbar-ul-li {
+    list-style-type: none;
+};
 
-.lockscreen-container-resultado_button {
-    width: 35%;
+.navbar-ul-li-link {
+    color: #FFFFFF;
+    text-decoration: none;
+};
+
+.navbar-ul-li-search_input {
+    width: 15rem;
+    background-color: #202020;
+    border: 0;
+    border-radius: .2rem;
+    color: #FFFFFF;
+    padding: .5rem;
 }
