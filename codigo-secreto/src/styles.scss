@@ -77,4 +77,19 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     border-radius: .2rem;
     color: #FFFFFF;
     padding: .5rem;
+};
+
+//Mika Snowden, 14/7/2025, 14:41 >> Style do component hellsing
+.hellsing-container {
+    background: url(app/hellsing/assets/hellsing-ultimate-4k-4000-x-2250-zg06ofymhw6jnxs8.jpg);
+    // background-color: #1D0000;
+};
+
+.hellsing-container-heading {
+    padding: 5rem;
+}
+
+.hellsing-container-heading-p {
+    text-align: center;
+    font-size: 2rem;
 }
