@@ -19,8 +19,14 @@ export class Lockscreen {
       case "12":
         this.router.navigate(["/hellsing"]);
         break;
+      case "33":
+        this.router.navigate(["/hannibal"]);
+        break;
       case "47":
         this.router.navigate(["/hitman"]);
+        break;
+      case "123":
+        this.router.navigate(["/dracula"]);
         break;
       default:
         document.querySelector('.lockscreen-container')!.innerHTML = `
