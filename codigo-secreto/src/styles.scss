@@ -93,11 +93,28 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     font-size: 2rem;
 };
 
-.hellsing-container-body-imagecontainer-imagebox {
-    margin: 2rem;
-    background-color: #CDCDCD;
-}
+.hellsing-container-body-imagecontainer-imageboxes {
+    display: flex;
+};
 
-.hellsing-container-body-imagecontainer-imagebox-img {
+.hellsing-container-body-imagecontainer-title-p {
+    margin: 1.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+};
+
+.hellsing-container-body-imagecontainer-imageboxes-imagebox {
+    margin: 1.6rem;
+    padding: .5rem;
+    border-radius: 1%;
+    background-color: #414141;
+};
+
+
+.hellsing-container-body-imagecontainer-imageboxes-imagebox-img {
     height: 50vh;
 };
+
+.hellsing-container-body-imagecontainer-imageboxes-imagebox-p {
+    text-align: center;
+}
