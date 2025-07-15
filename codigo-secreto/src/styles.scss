@@ -80,16 +80,24 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 };
 
 //Mika Snowden, 14/7/2025, 14:41 >> Style do component hellsing
-.hellsing-container {
-    background-color: #410403;
-};
+// .hellsing-container {
+// };
 
 .hellsing-container-heading {
+    background: url(https://wallpapers.com/images/hd/hellsing-ultimate-4k-4000-x-2250-zg06ofymhw6jnxs8.jpg);
     padding: 5rem;
-    background: url(app/hellsing/assets/hellsing-ultimate-4k-4000-x-2250-zg06ofymhw6jnxs8.jpg);
-}
+};
 
 .hellsing-container-heading-p {
     text-align: center;
     font-size: 2rem;
+};
+
+.hellsing-container-body-imagecontainer-imagebox {
+    margin: 2rem;
+    background-color: #CDCDCD;
 }
+
+.hellsing-container-body-imagecontainer-imagebox-img {
+    height: 50vh;
+};
