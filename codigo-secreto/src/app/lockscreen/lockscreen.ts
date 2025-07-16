@@ -15,14 +15,26 @@ export class Lockscreen {
 
   analisaNumero() {
     this.codenumber = document.getElementById('lockscreen-container-form_input-codenumber');
-    if (this.codenumber.value != "47") {
-      document.querySelector('.lockscreen-container')!.innerHTML = `
-      <div class="lockscreen-container-resultado">
-        <p class="lockscreen-container-resultado-p">Você digitou o número ${this.codenumber.value}!</p>
-      </div>
-      `;   
-    } else if (this.codenumber.value = "47") {
-      this.router.navigate(["/hitman"]);
-    }
+    switch (this.codenumber.value){
+      case "12":
+        this.router.navigate(["/hellsing"]);
+        break;
+      case "33":
+        this.router.navigate(["/hannibal"]);
+        break;
+      case "47":
+        this.router.navigate(["/hitman"]);
+        break;
+      case "123":
+        this.router.navigate(["/dracula"]);
+        break;
+      default:
+        document.querySelector('.lockscreen-container')!.innerHTML = `
+        <div class="lockscreen-container-resultado">
+          <p class="lockscreen-container-resultado-p">Você digitou o número ${this.codenumber.value}!</p>
+        </div>
+        `;
+        break;
+    };
   };
 };

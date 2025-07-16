@@ -79,6 +79,46 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     padding: .5rem;
 };
 
+//Mika Snowden, 14/7/2025, 14:41 >> Style do component hellsing
+// .hellsing-container {
+// };
+
+.hellsing-container-heading {
+    background: url(https://wallpapers.com/images/hd/hellsing-ultimate-4k-4000-x-2250-zg06ofymhw6jnxs8.jpg);
+    padding: 5rem;
+};
+
+.hellsing-container-heading-p {
+    text-align: center;
+    font-size: 2rem;
+};
+
+.hellsing-container-body-imagecontainer-imageboxes {
+    display: flex;
+};
+
+.hellsing-container-body-imagecontainer-title-p {
+    margin: 1.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+};
+
+.hellsing-container-body-imagecontainer-imageboxes-imagebox {
+    margin: 1.6rem;
+    padding: .5rem;
+    border-radius: 1%;
+    background-color: #414141;
+};
+
+
+.hellsing-container-body-imagecontainer-imageboxes-imagebox-img {
+    height: 50vh;
+};
+
+.hellsing-container-body-imagecontainer-imageboxes-imagebox-p {
+    text-align: center;
+};
+
 //Mika Snowden, 13/7/2025, 10:20 >> Style do component hitman
 .hitman-container-page-introduction {
     background: url(app/hitman/assets/69713-Hitman-3-4k-Ultra-HD-Wallpaper.jpg);
