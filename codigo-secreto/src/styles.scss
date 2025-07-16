@@ -77,4 +77,17 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     border-radius: .2rem;
     color: #FFFFFF;
     padding: .5rem;
+};
+
+//Mika Snowden, 13/7/2025, 10:20 >> Style do component hitman
+.hitman-container-page-introduction {
+    background: url(app/hitman/assets/69713-Hitman-3-4k-Ultra-HD-Wallpaper.jpg);
+    padding: 10rem;
+};
+
+.hitman-container-page-introduction-message_p {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 3.5rem;
 }
